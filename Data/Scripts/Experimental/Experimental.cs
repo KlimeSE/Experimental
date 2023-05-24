@@ -18,8 +18,9 @@ namespace klime.Experimental
 
         public override void UpdateAfterSimulation()
         {
-
+            MyAPIGateway.Utilities.ShowNotification($"Active", 1);
         }
+
         protected override void UnloadData()
         {
 
