@@ -7,8 +7,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: steam-workshop-upload
-      uses: weilbyte/steam-workshop-upload@v1
-      with: 
+      uses: Weilbyte/steam-workshop-upload@v1.1
+      with:
         appid: 244850 # Game's Steam App ID
         itemid: 2980215673 # Your mod's Steam Workshop ID
         path: '' # Path to your mod's folder from repository root
